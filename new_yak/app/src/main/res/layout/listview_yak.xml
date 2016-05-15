@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/colorTEST">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="약 이름"
+        android:id="@+id/yak_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="첫 번째 시간"
+        android:id="@+id/first_time"
+        android:layout_marginRight="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_alignTop="@+id/yak_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="두 번째 시간"
+        android:id="@+id/second_time"
+        android:layout_below="@+id/first_time"
+        android:layout_alignRight="@+id/first_time"
+        android:layout_alignEnd="@+id/first_time"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="세 번째 시간"
+        android:id="@+id/third_time"
+        android:layout_below="@+id/second_time"
+        android:layout_alignLeft="@+id/second_time"
+        android:layout_alignStart="@+id/second_time"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="투약횟수"
+        android:id="@+id/repeat_time"
+        android:layout_alignTop="@+id/second_time"
+        android:layout_alignLeft="@+id/yak_name"
+        android:layout_alignStart="@+id/yak_name"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="시작 날짜"
+        android:id="@+id/start_date"
+        android:layout_below="@+id/third_time"
+        android:layout_alignLeft="@+id/repeat_time"
+        android:layout_alignStart="@+id/repeat_time"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

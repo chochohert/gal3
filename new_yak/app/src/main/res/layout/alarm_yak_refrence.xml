@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="180dp" android:background="@color/c6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어떤 약인가요?"
+        android:textSize="20dp"
+        android:id="@+id/title_yak_layout_3"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/yak_content"
+        android:layout_alignStart="@+id/yak_content" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:id="@+id/yak_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/title_yak_layout_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="약 정보를 입력하세요."
+        android:layout_marginLeft="30dp"
+       />
+
+</RelativeLayout>

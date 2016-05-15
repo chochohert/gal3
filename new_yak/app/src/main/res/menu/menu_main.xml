@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.yoon.new_yak.MainActivity">
+    <item
+        android:id="@+id/action_plus_yak"
+        android:orderInCategory="100"
+        android:title="@string/plus_yak"
+        android:icon="@drawable/plus"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom" />
+</menu>
